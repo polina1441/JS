@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center; /*по горизонали*/
+    align-items: center; /*по вертикали*/
+    background-color: #ede5ff;
+}
+.container h2{
+    background-color: #505050;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+.container{
+    text-align: center;
+}
+.color{
+    color: #cbb3fa;
+}
+#btn{
+    padding: 10px;
+    background-color: rgba(80, 80, 80, 0);
+    border: solid #505050 2px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#btn:hover{
+    transition: all 0.2s ease-in;
+    border: solid #505050 2px;
+    color: white;
+    background-color: rgb(80, 80, 80);
+}
